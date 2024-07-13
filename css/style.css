@@ -1,0 +1,87 @@
+/* Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+    /* For font style. */
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+/* 
+                                                Header.
+    ===========================================================================================
+*/
+
+/* 
+                                        Savor the flavors section.
+    =======================================================================================
+*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/images/hero_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#savor_the_flavors_section {
+    text-align: center;
+    margin: 16.5rem 28rem;
+}
+
+#savor_the_flavors_section .savor_span {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+#savor_the_flavors_section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 1rem 0 1.5rem;
+}
+
+#savor_the_flavors_section p {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+#savor_the_flavors_section a {
+    padding: 1.313rem 2rem;
+    border-radius: .5rem;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
