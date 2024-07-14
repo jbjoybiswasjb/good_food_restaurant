@@ -286,6 +286,49 @@ header {
     =======================================================================================
 */
 #social_section {
-    margin: 8.563rem 19.125rem 8.375rem;
+    padding: 8.563rem 19.125rem 8.375rem;
+    text-align: center;
+    background-image: url("../assets/images/social_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#social_section div {
+    margin: 0 16.094rem;
+}
+
+#social_section h4 {
+    color: rgb(16, 16, 16);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+#social_section p {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+#social_section h5 {
+    color: rgb(16, 16, 16);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.375rem;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 1.875rem 0;
+    opacity: 0.7;
+    margin: 3rem 0 2rem;
+}
+
+#social_section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
