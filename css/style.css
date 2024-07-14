@@ -162,3 +162,66 @@ header {
     background: rgb(82, 195, 3);
     border: none;
 }
+
+
+/* 
+                                    We always make sure section.
+    =======================================================================================
+*/
+#we_always_make_sure_section {
+    margin-bottom: 12rem;
+}
+
+.we_always_make_sure_section_flex {
+    display: flex;
+    width: 100%;
+}
+
+.we_always_make_sure_section_flex>div {
+    width: 50%;
+}
+
+.we_always_make_sure_section_flex_right {
+    padding: 8.5rem 0;
+}
+
+.we_always_make_sure_section_flex_right div {
+    padding: 0 5.594rem;
+    text-align: center;
+}
+
+.we_always_make_sure_section_flex_right div h3 {
+    color: rgb(16, 16, 16);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.we_always_make_sure_section_flex_right div p {
+    color: rgb(16, 16, 16);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin: 1.5rem 0 3rem;
+    opacity: 0.6;
+}
+
+.we_always_make_sure_section_flex_right h4 {
+    color: rgb(16, 16, 16);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.375rem;
+    opacity: 0.7;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 1.875rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.we_always_make_sure_section_flex_right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
