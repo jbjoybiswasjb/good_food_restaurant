@@ -25,6 +25,7 @@ body {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #fff;
 
 }
 
@@ -85,3 +86,36 @@ header {
     cursor: pointer;
     display: inline-block;
 }
+
+
+/* 
+                                Your favorite brands food section.
+    =======================================================================================
+*/
+#your_favorite_brands_food_section {
+    padding: 10.438rem 18.75rem 11.188rem;
+    text-align: center;
+}
+
+.your_favorite_brands_food_section_top {
+    margin: 0 19.656rem;
+}
+
+.your_favorite_brands_food_section_top span {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.your_favorite_brands_food_section_top h2 {
+    color: rgb(16, 16, 16);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.your_favorite_brands_food_section_bottom {
+    margin: 3rem 0 4rem;
+}
+
