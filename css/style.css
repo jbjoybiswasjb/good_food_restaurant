@@ -119,3 +119,46 @@ header {
     margin: 3rem 0 4rem;
 }
 
+.your_favorite_brands_food_section_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    border-radius: 1rem;
+}
+
+.your_favorite_brands_food_section_grid div a {
+    display: inline-block;
+    margin: 2rem 0 1.5rem;
+    padding: 0.875rem 2rem;
+    border-radius: .5rem;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.your_favorite_brands_food_section_grid div h3 {
+    margin-bottom: 1.5rem;
+    color: rgb(16, 16, 16);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.your_favorite_brands_food_section_grid p {
+    margin-bottom: 1rem;
+    color: rgb(16, 16, 16);
+    font-size: 1.125rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+#your_favorite_brands_food_section button {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 1.313rem 2rem;
+    border-radius: .5rem;
+    background: rgb(82, 195, 3);
+    border: none;
+}
