@@ -225,3 +225,57 @@ header {
     align-items: center;
     gap: 2rem;
 }
+
+
+/* 
+                                            Card section.
+    =======================================================================================
+*/
+#card_section {
+    margin: 13.5rem 48.25rem 7.5rem 45.25rem;
+    text-align: center;
+}
+
+#card_section img {
+    border-radius: 1rem;
+}
+
+#card_section span {
+    display: inline-block;
+    padding: 0.875rem 2rem;
+    color: rgb(16, 16, 16);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    border-radius: .5rem;
+    background: rgba(82, 195, 3, 0.15);
+    margin: 2rem 0 1.5rem;
+}
+
+#card_section div h4 {
+    color: rgb(16, 16, 16);
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2.938rem;
+}
+
+#card_section div p {
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin: 1.5rem 0 4rem;
+}
+
+#card_section button {
+    border-radius: .5rem;
+    background: rgb(82, 195, 3);
+    padding: 1.313rem 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.438rem;
+    border: none;
+    cursor: pointer;
+}
