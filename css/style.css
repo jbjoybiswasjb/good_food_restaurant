@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/images/hero_bg.png");
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/media/images/hero_bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -288,7 +288,7 @@ header {
 #social_section {
     padding: 8.563rem 19.125rem 8.375rem;
     text-align: center;
-    background-image: url("../assets/images/social_bg.png");
+    background-image: url("../assets/media/images/social_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
